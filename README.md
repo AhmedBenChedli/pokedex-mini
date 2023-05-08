@@ -1,16 +1,28 @@
 # pokedex_mini
-
-A new Flutter project.
+A Pokedex Application
 
 ## Getting Started
+1 -To use the Pokedex application, you need to follow the steps mentioned below:
+https://github.com/AhmedBenChedli/pokedex-mini.git
 
-This project is a starting point for a Flutter application.
+2 - Navigate to the project directory using the following command:
+cd pokedex_mini
 
-A few resources to get you started if this is your first Flutter project:
+3 - Install the dependencies using the following command:
+flutter pub get
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+4 - Run the application using the following command:
+flutter run
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Features
+Pokemon library: Users can get all Pokemon into a Library and display a random pokemon every time they visit the app.
+View Pokemon Details: Users can view the details of a Pokemon, including its name, weight, height, evolution chain and abilities.
+Favorites: Users can bookmark a Pokemon as a favorite and view a list of their favorite Pokemon.
+
+## Dependencies
+The Pokedex application uses the following dependencies:
+http: A package for making HTTP requests.
+shared_preferences: A package for persisting key-value data on the device.
+
+## Credits
+The Pokedex-mini application is developed using the Poke API.
